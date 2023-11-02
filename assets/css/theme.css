@@ -137,7 +137,8 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
+  color: #333;
 }
 
 abbr[title],
@@ -3811,6 +3812,32 @@ fieldset:disabled .btn {
   background-color: #1c1c1c;
   border-color: #1a1a1a;
 }
+
+.btn-red {
+  color: #FFFEFE;
+  background-color: #FF004E;
+  border-color: #FF004E;
+}
+
+.btn-red:hover {
+  color: #FF004E;
+  background-color: #FFF;
+  border-color: ##FF004E;
+}
+
+.btn-yel {
+  color: #0f1111;
+  background-color: #FFD814;
+  border-color: #FCD200;
+}
+
+.btn-yel:hover {
+  color: #0f1111;
+  background-color: #FCD200;
+  border-color: #FFD814;
+}
+
+
 
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #FFFEFE;

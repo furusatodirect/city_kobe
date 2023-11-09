@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="assets/img/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -15,48 +14,160 @@
   <link href="assets/css/theme.css" rel="stylesheet" />
   <title>MOCKUP</title>
 </head>
+
 <body>
 
 
   <main class="main" id="top">
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
-      data-navbar-on-scroll="data-navbar-on-scroll">
+    <nav class="p-0 navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
       <div class="container">
+
         <div class="d-flex">
           <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img class="d-inline-block" src="assets/img/emblem.png" width="36px" alt="logo" /><span
-              class="fw-bold ms-2 text-primary">神戸市ふるさと納税総合サイト</span>
+            <img class="d-inline-block" src="assets/img/emblem.png" width="36px" alt="logo" />
+            <span class="txtsm fw-bold ms-2 text-primary d-md-none">神戸市<br class="st3 d-md-none">ふるさと納税<br class="st3 d-md-none">総合サイト</span>
+            <span class="txtmd fw-bold ms-2 text-primary d-none d-md-block">神戸市ふるさと納税総合サイト</span>
           </a>
+
+          <div class="row justify-content-md-end d-md-none">
+            <form class="d-flex">
+              <a href="#" class="d-flex flex-column align-items-center text-primary"><i class="bi bi-gift"></i><span class="txtsm">寄付をする</span></a>
+              <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-building"></i><span class="txtsm text-center">企業版<br class="st3 d-md-none">ふるさと納税</span></a>
+              <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-cart"></i><span class="txtsm">カート</span></a>
+            </form>
+          </div>
+
         </div>
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-none">
-            <li class="nav-item px-2"><a class="nav-link fw-medium active" aria-current="page"
-                href="#categoryWomen">Women</a></li>
-            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#header">Men</a></li>
-            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#collection">Collection</a></li>
-            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#outlet">Outlet</a></li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-none">
+            <li class="nav-item px-2"><a class="nav-link fw-medium active" href="#">新規会員登録 / ログイン</a></li>
+            <li class="nav-item px-2"><a class="nav-link fw-medium active" href="#">寄付をする</a></li>
+            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#">使い道</a></li>
+            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#">クラウドファンディング</a></li>
+            <li class="nav-item px-2"><a class="nav-link fw-medium" href="#">企業版ふるさと納税</a></li>
           </ul>
-          <form class="d-flex">
-            <a href="#" class="d-flex flex-column align-items-center text-1000 fs-0 fw-bold ms-2"><i class="bi bi-gift"
-                style="font-size: 1.2rem;"></i><span>お礼の品</span></a></a>
-            <a href="#" class="d-flex flex-column align-items-center text-1000 fs-0 fw-bold ms-2"><i
-                class="bi bi-chat-square-heart" style="font-size: 1.2rem;"></i><span>使い道</span></a>
-            <a href="#" class="d-flex flex-column align-items-center text-1000 fs-0 fw-bold ms-2"><i class="bi bi-cart"
-                style="font-size: 1.2rem;"></i><span>カート</span></a>
-            <a href="#" class="d-flex flex-column align-items-center text-1000 fs-0 fw-bold ms-2"><i
-                class="bi bi-door-open" style="font-size: 1.2rem;"></i><span>ログイン</span></a>
-          </form>
+
+          <div class="container">
+            <div class="row justify-content-md-end d-none d-md-flex">
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary"><i class="bi bi-gift"></i><span class="txtbase">寄付をする</span></a>
+              </div>
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-chat-square-heart"></i><span class="txtbase">使い道</span></a>
+              </div>
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-diagram-3"></i><span class="txtbase">クラウドファンディング</span></a>
+              </div>
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-building"></i><span class="txtbase">企業版ふるさと納税</span>
+                </a>
+              </div>
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-cart"></i><span class="txtbase">カート</span></a>
+              </div>
+              <div class="col-md-auto">
+                <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-door-open"></i><span class="txtbase">ログイン</span></a>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <!---
+          <form class="d-flex">
+            <a href="#" class="d-flex flex-column align-items-center text-primary"><i class="bi bi-gift" style="font-size: 1rem;"></i><span>寄付をする</span></a>
+            <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-chat-square-heart" style="font-size: 1rem;"></i><span>使い道</span></a>
+            <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-chat-square-heart" style="font-size: 1rem;"></i><span>クラウドファンディング</span></a>
+            <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-chat-square-heart" style="font-size: 1rem;"></i><span>企業版ふるさと納税</span></a>
+            <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-cart" style="font-size: 1rem;"></i><span>カート</span></a>
+            <a href="#" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-door-open" style="font-size: 1rem;"></i><span>ログイン</span></a>
+          </form>
+        -->
+
+
       </div>
     </nav>
 
+
+    <section class="bg-light-gradient border-bottom border-white border-5">
+      <div class="bg-holder overlay overlay-light" style="background: rgb(255,255,255);
+      background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(150,194,149,0.46559873949579833) 68%, rgba(46,121,45,1) 100%);
+      background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(150,194,149,0.46559873949579833) 68%, rgba(46,121,45,1) 100%);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(150,194,149,0.46559873949579833) 68%, rgba(46,121,45,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=" #ffffff",endColorstr="#2e792d" ,GradientType=1);"></div>
+
+      <div class="container">
+        <div class="row mt-3 g-1 g-md-2">
+
+          <div class="col-md-6">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem; object-fit: cover;aspect-ratio: 16/9;" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card-body h-100 shadow border-top flex-grow-1 bg-light" style="padding:0;border-radius: .5rem .5rem;">
+              <div class="bg-success" style="border-radius: .5rem .5rem 1.5rem 1.5rem;">
+                <div class="py-2 px-3 h-100">
+                  <span class="badge rounded-pill bg-white mb-2"><span class="txtsm text-success">プロジェクト</span></span>
+                  <p class="txtmd fw-bold text-white">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </div>
+              <div class="p-2">
+                <p class="txtmd text-dark text-center m-0"><i class="bi bi-clock"></i> 受付中 2023年10月02日〜</p>
+                <p class="txtbase text-dark text-end m-0">現在の寄付合計 <span class="txtlg fw-bold">225,000</span> 円</p>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                </div>
+                <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                  <p class="txtbase m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                  <p class="txtbase">残り<br class="d-lg-none"> <span class="txtbase fw-bold">30</span> 日</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-lg btn-success" href="#" role="button">ふるさと納税で応援</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="card-body h-100 shadow border-top flex-grow-1 bg-light" style="border-radius: .5rem .5rem;">
+
+              <div class="d-flex justify-content-end pt-2">
+                <p class="txtbase text-dark text-center">兵庫県神戸市 × 特定非営利活動法人まなびと</p>
+              </div>
+              <p>
+                概要
+              </p>
+              <p>
+                神戸市では、様々な社会課題に取り組むNPO等の活動を支援することにより、公益的な活動への市民の参画を推進しています。
+                特定非営利活動法人まなびとは、異人館やモスク等が立地する北野地区において、国籍など多様なバックグラウンドに所属する方が、共に学ぶことを通じて一人ひとりが生き方を探求することができる・誰もが受け入れてもらえる「居場所づくり」に取り組んできました。
+                子どもが外国語を学ぶ機会を提供したり、外国にルーツを持つ方に日本語や日本の文化を学ぶ機会を提供するなど、多様性がある居場所づくりは、在留外国人の増加に伴い、相互理解の場として必要性が高まっています。まなびとも市内各地で「居場所」を増やそうとしていますが、物件の確保やリノベーションなど最初に纏まった資金が必要です。
+                多様性が当たり前の世の中で、まなびとの取り組みは新たな地域社会づくりのモデルになります。まなびとの取り組みに応援・参加いただける方々のご支援をお待ちしております。
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!--
     <section class="py-11 bg-light-gradient border-bottom border-white border-5">
-      <div class="bg-holder overlay overlay-light"
-        style="background-image:url(assets/img/gallery/header-bg.png);background-size:cover;">
+      <div class="bg-holder overlay overlay-light" style="background-image:url(assets/img/gallery/header-bg.png);background-size:cover;">
       </div>
 
       <div class="container">
@@ -76,8 +187,7 @@
           <div class="row h-100 g-0 mb-2 bg-light">
 
             <div class="col-md-6">
-              <div class="card card-span h-100 text-white"><img class="card-img h-100"
-                  src="assets/img/gallery/img_use1.jpg" alt="..." style="object-fit: cover;
+              <div class="card card-span h-100 text-white"><img class="card-img h-100" src="assets/img/gallery/img_use1.jpg" alt="..." style="object-fit: cover;
                 aspect-ratio: 16/9;" />
                 <div class="card-img-overlay bg-dark-gradient">
                   <div class="d-flex align-items-end justify-content-center h-100"></div>
@@ -88,8 +198,7 @@
             <div class="col-md-6">
               <div class="card-body h-100 px-xl-3 px-md-2 bg-light">
                 <h4 class="text-dark text-end">寄附金額：2,115,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="42"
-                  aria-valuemin="0" aria-valuemax="100">
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
                   <div class="progress-bar bg-success progress-bar-striped" style="width: 42%">42%</div>
                 </div>
                 <div class="d-flex justify-content-between">
@@ -98,155 +207,380 @@
                 </div>
                 <h4 class="fw-bold text-1000 mt-3">全国から治療に来られる難病のお子さんとご家族が安心して闘病・付き添い生活を過ごすための食事支援を！</h4>
               </div>
-            </div>
 
+
+            </div>
             <div class="d-flex align-items-end justify-content-center h-100 pt-3">
               <p class="btn btn-success btn-lg fs-1" role="button">ふるさと納税で応援</p>
-            </div><a class="stretched-link" href="#"></a>
+            </div>
+
 
           </div>
         </div>
 
       </div>
     </section>
+-->
 
 
-    <section>
-      <div class="container-fluid container-lg">
-        <div class="row h-100">
-          <div class="col-lg-7 mx-auto text-center mb-5">
-            <h5 class="fw-bold fs-3 fs-lg-5 lh-sm text-primary">クラウドファンディング</h5>
+    <section class="pt-3">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h5 class="fs-3 fs-lg-5 lh-sm mb-3 text-primary">お礼の品を選んで<br class="st3 d-md-none">このプロジェクトへ寄付をする</h5>
           </div>
         </div>
-        <div class="row g-2 justify-content-center">
 
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card"
-                src="assets/img/gallery/img_use1.jpg" alt="..." style="object-fit: cover;
-                aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：2,115,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="42"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success progress-bar-striped" style="width: 42%">42%</div>
+        <div class="row g-1 g-md-3 justify-content-center">
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product1.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">19,000</span> 円</p>
+                  <p class="txtbase">A5等級神戸牛（神戸ビーフ）おまかせ焼肉セット 500ｇ [神戸牛専門店 神戸ぐりる工房]</p>
                 </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：5,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：63日</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product2.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">15,000</span> 円</p>
+                  <p class="txtbase">【レーブドゥシェフ】くちどけやさしいシェフのアイス（12個入）『農林水産大臣賞』受賞</p>
                 </div>
-                <h4 class="fw-bold text-1000 mt-3">全国から治療に来られる難病のお子さんとご家族が安心して闘病・付き添い生活を過ごすための食事支援を！</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100">
-                <p class="btn btn-success btn-lg fs-1" role="button">ふるさと納税で応援</p>
-              </div><a class="stretched-link" href="#"></a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product3.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">【冷蔵便】【辰屋】神戸牛焼肉懐石 4種 計600g
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product4.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">6,000</span> 円</p>
+                  <p class="txtbase">福寿　純米吟醸　化粧箱入り</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product5.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">17,000</span> 円</p>
+                  <p class="txtbase">神戸の酒蔵飲み比べセット(300ml x 8本)</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product6.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">有馬温泉・宿泊施設利用優待券（3万円相当）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product7.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">50,000</span> 円</p>
+                  <p class="txtbase">神戸ビーフ　肩ロースとモモのすき焼用（940g）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product8.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">神戸市観光・ホテル旅館協会　Kクーポン（3枚）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product9.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">70,000</span> 円</p>
+                  <p class="txtbase">有馬温泉「有馬グランドホテル」「中の坊瑞苑」　中の坊ギフトクーポン（21000円相当）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product10.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">10,000</span> 円</p>
+                  <p class="txtbase">【グラモウディーズ】ベーシックマカロン12個セット</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product11.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">10,000</span> 円</p>
+                  <p class="txtbase">白鶴 翔雲 純米吟醸 「白鶴錦」 720ml瓶 【化粧箱入】</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="same-link">
+                <img class="card-img-top" src="assets/img/gallery/img_product12.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">10,000</span> 円</p>
+                  <p class="txtbase">【くり松】くり松千本（9個入り）</p>
+                </div>
+              </a>
+              <!--
+            <div class="d-flex justify-content-between m-1 grid gap-1">
+              <a class="btn btn-yel px-0 w-50" href="cart-link" role="button">カートに入れる</a>
+              <a class="btn btn-red px-0 w-50" href="apply-link" role="button">申し込む</a>
+            </div>
+            -->
             </div>
           </div>
 
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card"
-                src="assets/img/gallery/img_use2.jpg" alt="..." style="object-fit: cover;
-                aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：271,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="13"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success progress-bar-striped" style="width: 13%">13%</div>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：2,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：63日</h6>
-                </div>
-                <h4 class="fw-bold text-1000 mt-3">神戸のシンボル「風見鶏の館」を未来へつなぐ　耐震補強工事にご支援を</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100"><a class="btn btn-success btn-lg fs-1"
-                  href="#" role="button">ふるさと納税で応援</a></div>
-            </div><a class="stretched-link" href="#"></a>
+          <div class="col-12 d-flex justify-content-center mt-5">
+            <a class="btn btn-lg btn-success" href="#" role="button">ふるさと納税で応援</a>
           </div>
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card"
-                src="assets/img/gallery/img_use3.jpg" alt="..." style="object-fit: cover;
-                aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：196,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="7"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success progress-bar-striped" style="width: 7%">7%</div>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：3,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：30日</h6>
-                </div>
-                <h4 class="fw-bold text-1000 mt-3">復元整備から50年　五色塚古墳に葬られた王の姿をレーダー探査で迫りたい！</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100"><a class="btn btn-success btn-lg fs-1"
-                  href="#" role="button">ふるさと納税で応援</a></div>
-            </div><a class="stretched-link" href="#"></a>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card"
-                src="assets/img/gallery/img_use4.jpg" alt="..." style="object-fit: cover;
-                aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：225,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：1,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：30日</h6>
-                </div>
-                <h4 class="fw-bold text-1000 mt-3">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100"><a class="btn btn-success btn-lg fs-1"
-                  href="#" role="button">ふるさと納税で応援</a></div>
-            </div><a class="stretched-link" href="#"></a>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card"
-                src="assets/img/gallery/img_use5.jpg" alt="..." style="object-fit: cover;
-                aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：6,000,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-danger progress-bar-striped" style="width: 200%">200%</div>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：3,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：30日</h6>
-                </div>
-                <h4 class="fw-bold text-1000 mt-3">福祉カフェ「はじめのいっぽ」で未来を担う子ども達を地域で支えたい</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100"><a class="btn btn-success btn-lg fs-1"
-                  href="#" role="button">ふるさと納税で応援</a></div>
-            </div><a class="stretched-link" href="#"></a>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0 d-flex">
-            <div class="card card-span text-white h-100 d-flex flex-column"><img class="img-card" src="assets/img/gallery/img_use6.jpg" alt="..." style="object-fit: cover; aspect-ratio: 16/9;" />
-              <div class="card-body px-xl-3 px-md-2 flex-grow-1 border-top">
-                <h4 class="text-dark text-end">寄附金額：781,000円</h4>
-                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="78"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success progress-bar-striped" style="width: 78%">78%</div>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h6 class="text-dark pt-1">目標金額：1,000,000円</h6>
-                  <h6 class="text-dark pt-1">残り：30日</h6>
-                </div>
-                <h4 class="fw-bold text-1000 mt-3">被災者を支援者につなげる活動「つなぎ手」の輪を広げたい</h4>
-              </div>
-              <div class="d-flex align-items-end justify-content-center h-100"><a class="btn btn-success btn-lg fs-1"
-                  href="#" role="button">ふるさと納税で応援</a></div>
-            </div><a class="stretched-link" href="#"></a>
-          </div>
-          <div class="col-12 d-flex justify-content-center mt-5"> <a class="btn btn-lg btn-primary"
-              href="#!">クラウドファンディング一覧</a>
-          </div>
+
         </div>
       </div>
     </section>
 
+
+
+    <section class="pt-3">
+      <div class="container">
+
+        <div class="row h-100">
+          <div class="col-lg-7 mx-auto text-center mt-7 mb-5">
+            <h5 class="fw-bold fs-3 fs-lg-5 lh-sm text-success">プロジェクト一覧</h5>
+          </div>
+        </div>
+
+
+        <div class="row g-1 g-md-3 justify-content-center">
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">225,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                    <p class="txtsm">残り<br class="d-lg-none"> <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">【レイアウトパターンA】</p>
+                  <p class="txtbase">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use2.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">271,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 13%">13%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm fw-bold">目標金額<br class="d-lg-none"> 2,000,000 円</p>
+                    <p class="txtsm fw-bold">残り<br class="d-lg-none"> 63 日</p>
+                  </div>
+                  <p class="txtbase">【レイアウトパターンB】</p>
+                  <p class="txtbase">神戸のシンボル「風見鶏の館」を未来へつなぐ　耐震補強工事にご支援を</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use3.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1 " style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計<br class="d-lg-none"> <span class="txtmd fw-bold">4,500,000</span> 円</p>
+                  <p class="txtsm text-dark text-end m-0">目標金額<br class="d-lg-none"> <span class="txtmd fw-bold text-primary">3,000,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="7" aria-valuemin="0" aria-valuemax="150">
+                    <div class="progress-bar bg-danger progress-bar-striped" style="width: 150%">150%</div>
+                  </div>
+                  <div class="text-end pt-1 border-bottom mb-2">
+                    <p class="txtsm">残り <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">【レイアウトパターンC】</p>
+                  <p class="txtbase">復元整備から50年　五色塚古墳に葬られた王の姿をレーダー探査で迫りたい！</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use1.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">2,115,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 42%">42%</div>
+                  </div>
+                  <div class="d-flex flex-column text-end pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="txtmd fw-bold text-primary">5,000,000</span> 円</p>
+                    <p class="txtsm">残り <span class="txtsm fw-bold">163</span> 日</p>
+                  </div>
+                  <p class="txtbase">【レイアウトパターンD】</p>
+                  <p class="txtbase">全国から治療に来られる難病のお子さんとご家族が安心して闘病・付き添い生活を過ごすための食事支援を！</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">225,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                    <p class="txtsm">残り<br class="d-lg-none"> <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">225,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                    <p class="txtsm">残り<br class="d-lg-none"> <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">225,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                    <p class="txtsm">残り<br class="d-lg-none"> <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a href="#" class="h-100">
+                <img class="card-img-top" src="assets/img/gallery/img_use4.jpg" alt="..." style="border-radius: .5rem .5rem 0 0; object-fit: cover;aspect-ratio: 16/9;" />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-dark text-end m-0">現在の寄付合計 <span class="txtmd fw-bold">225,000</span> 円</p>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width: 23%">23%</div>
+                  </div>
+                  <div class="d-flex justify-content-between pt-1 border-bottom mb-2">
+                    <p class="txtsm m-0">目標金額<br class="d-lg-none"> <span class="fw-bold text-primary">1,000,000</span> 円</p>
+                    <p class="txtsm">残り<br class="d-lg-none"> <span class="txtsm fw-bold">30</span> 日</p>
+                  </div>
+                  <p class="txtbase">子どもも大学生も外国人も！ 多様性が当たり前の居場所づくり</p>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center pb-3">
+                <a class="btn btn-success" href="#" role="button">プロジェクト詳細</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </section>
 
 
 
@@ -271,10 +605,8 @@
             <div class="row input-group-icon">
               <div class="col-12">
                 <input class="form-control input-box" type="email" placeholder="お問い合わせ" aria-label="email" />
-                <svg class="bi bi-arrow-right-short input-box-icon" xmlns="http://www.w3.org/2000/svg" width="23"
-                  height="23" fill="#424242" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                <svg class="bi bi-arrow-right-short input-box-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#424242" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
                   </path>
                 </svg>
               </div><a class="stretched-link" href="#"></a>
@@ -338,8 +670,7 @@
   </script>
 
 
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 </body>
 
 </html>

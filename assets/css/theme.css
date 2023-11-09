@@ -58,7 +58,9 @@
 --font-size-xxxl: clamp(2.67rem, 2.8vw + 1.97rem, 4.21rem);
 
       */
-
+.txttab {
+  font-size: clamp(0.7rem, 0.91vw + 0.27rem, 1rem);
+}
 
 .txtsm {
   font-size: clamp(0.7rem, 0.09vw + 0.68rem, 0.75rem);
@@ -76,7 +78,13 @@
   font-size: clamp(1.37rem, 0.74vw + 1.18rem, 1.78rem);
 }
 
+.text-pink {
+  color: #e788b0;
+}
 
+.text-success {
+  color: #2e792d;
+}
 
 /* Fallback variables for browsers that don't support clamp */
 @supports not (font-size: clamp(1rem, 1vw, 1rem)) {
@@ -227,6 +235,13 @@ br {
   content: "";
   margin: 0;
 }
+
+br.stab {
+  display: block;
+  content: "";
+  margin: -10px 0;
+}
+
 
 br.st {
   display: block;
@@ -10435,7 +10450,7 @@ div#sec3 {
 }
 
 .text-success {
-  color: #19CC61 !important;
+  color: #2e792d !important;
 }
 
 .text-info {
@@ -20414,13 +20429,13 @@ code {
 section {
   position: relative;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 992px) {
   section {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -21579,6 +21594,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /*# sourceMappingURL=theme.css.map */
 
+.slide-img {
+  width: 100%;
+  object-fit: contain;
+}
+
 
 .swiper {
   width: 100%;
@@ -21588,7 +21608,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .swiper-slide {
   /*text-align: center;*/
   font-size: 18px;
-  background: #fff;
+  /*background: #fff;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21605,6 +21625,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   position: relative;
 }
 
+.swiper-slide .card {}
+
 .swiper-catch {
   font-family: "Montserrat", sans-serif;
   position: absolute;
@@ -21617,6 +21639,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   align-items: center;
 }
+
+
 
 .swiper-catch * {
   flex-shrink: 0;

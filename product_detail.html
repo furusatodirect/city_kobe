@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="assets/css/theme.css" rel="stylesheet" />
+  <title>MOCKUP</title>
+</head>
+
+<body>
+
+  <main class="main" id="top">
+
+    <nav class="p-0 navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+      <div class="container">
+
+        <div class="d-flex">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img class="d-inline-block" src="assets/img/emblem.png" width="36px" alt="logo" />
+            <span class="txtsm fw-bold ms-2 text-primary d-md-none">神戸市<br class="st3 d-md-none">ふるさと納税<br class="st3 d-md-none">総合サイト</span>
+            <span class="txtmd fw-bold ms-2 text-primary d-none d-md-block">神戸市ふるさと納税総合サイト</span>
+          </a>
+
+          <div class="row justify-content-md-end d-md-none">
+            <form class="d-flex">
+              <a tabindex="-1" class="d-flex flex-column align-items-center text-primary"><i class="bi bi-gift"></i><span class="txtsm">寄付をする</span></a>
+              <a href="kigyou_furusato.html" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2 border border-danger rounded-1"><i class="bi bi-building"></i><span class="txtsm text-center">企業版<br class="st3 d-md-none">ふるさと納税</span></a>
+              <a tabindex="-1" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-cart"></i><span class="txtsm">カート</span></a>
+            </form>
+          </div>
+
+        </div>
+
+        <button class="navbar-toggler collapsed border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-primary"><i class="bi bi-list"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-none">
+            <li class="nav-item px-2"><a class="nav-link fw-medium active" tabindex="-1">新規会員登録 / ログイン</a></li>
+            <li class="nav-item px-2"><a class="nav-link fw-medium active" tabindex="-1">寄付をする</a></li>
+            <li class="nav-item px-2 border border-danger rounded-1"><a class="nav-link fw-medium" href="use.html">使い道</a></li>
+            <li class="nav-item px-2 border border-danger rounded-1"><a class="nav-link fw-medium" href="crowdfunding.html">クラウドファンディング</a></li>
+            <li class="nav-item px-2 border border-danger rounded-1"><a class="nav-link fw-medium" href="kigyou_furusato.html">企業版ふるさと納税</a></li>
+          </ul>
+
+          <div class="container">
+            <div class="row justify-content-md-end d-none d-md-flex">
+              <div class="col-md-auto">
+                <a tabindex="-1" class="d-flex flex-column align-items-center text-primary"><i class="bi bi-gift"></i><span class="txtbase">寄付をする</span></a>
+              </div>
+              <div class="col-md-auto border border-danger rounded-1">
+                <a href="use.html" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-chat-square-heart"></i><span class="txtbase">使い道</span></a>
+              </div>
+              <div class="col-md-auto border border-danger rounded-1">
+                <a href="crowdfunding.html" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-diagram-3"></i><span class="txtbase">クラウドファンディング</span></a>
+              </div>
+              <div class="col-md-auto border border-danger rounded-1">
+                <a href="kigyou_furusato.html" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-building"></i><span class="txtbase">企業版ふるさと納税</span>
+                </a>
+              </div>
+              <div class="col-md-auto">
+                <a tabindex="-1" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-cart"></i><span class="txtbase">カート</span></a>
+              </div>
+              <div class="col-md-auto">
+                <a tabindex="-1" class="d-flex flex-column align-items-center text-primary fs-0 fw-light ms-2"><i class="bi bi-door-open"></i><span class="txtbase">ログイン</span></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="bg-light-gradient border-bottom border-white border-5">
+
+
+      <div class="container">
+        <div class="row mt-3 g-1 g-md-2 col-md-10 mx-auto align-items-stretch">
+
+          <div class="col-md-6 d-flex flex-column h-100">
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper pd_Swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_01.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_02.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_03.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_04.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_05.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_06.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_07.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_08.jpg" />
+                </div>
+              </div>
+
+            </div>
+            <div thumbsSlider="" class="swiper pd_Swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_01.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_02.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_03.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_04.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_05.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_06.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_07.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/gallery/pd_08.jpg" />
+                </div>
+              </div>
+              <div class="swiper-button-next text-primary txtmd"><i class="bi bi-arrow-right-circle-fill"></i></div>
+              <div class="swiper-button-prev text-primary txtmd"><i class="bi bi-arrow-left-circle-fill"></i></div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 d-flex flex-column h-100">
+            <div class="card h-100 shadow border-top d-flex flex-column" style="padding:0;border-radius: .5rem .5rem;">
+
+              <div class="bg-primary" style="border-radius: .5rem .5rem 1.5rem 1.5rem;">
+                <div class="py-2 px-3 h-100">
+                  <span class="badge rounded-pill bg-white mb-2"><span class="txtsm text-primary">お礼の品</span></span>
+                  <p class="txtmd fw-bold text-white">A5等級神戸牛（神戸ビーフ）おまかせ焼肉セット　500ｇ　［神戸牛専門店 神戸ぐりる工房］</p>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-around align-content-center py-3">
+                <p class="txtbase text-dark text-end mb-2">寄付金額 <span class="txtlg fw-bold">19,000</span> 円</p>
+                <a class="btn btn-md btn-danger d-flex align-items-center justify-content-center" tabindex="-1" style="pointer-events: none;">
+                  <span class="txtbase">寄付カートに入れる</span>
+                </a>
+              </div>
+
+              <div class="mt-auto p-2">
+                <div class="dl"></div>
+                <p class="w-100 p-2 txtbase fw-bold text-dark">お礼の品詳細</p>
+                <div class="part txtbase">
+                  <dl>
+                    <dt>内容量</dt>
+                    <dd>500g、神戸肉之証（コピー）、牛脂、サンゴ塩</dd>
+                  </dl>
+                  <dl>
+                    <dt>消費/賞味期限</dt>
+                    <dd>発送日より30日間</dd>
+                  </dl>
+                  <dl>
+                    <dt>アレルギー</dt>
+                    <dd>牛肉</dd>
+                  </dl>
+                  <dl>
+                    <dt>事業者</dt>
+                    <dd>神戸牛専門店　神戸ぐりる工房</dd>
+                  </dl>
+                  <dl>
+                    <dt>お礼の品ID</dt>
+                    <dd>123456</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row mt-3 g-1 g-md-2 col-md-10 mx-auto align-items-stretch">
+
+          <div class="col-md-6 d-flex flex-column h-100">
+            <div class="d-flex flex-column">
+              <p class="w-100 p-2 txtbase fw-bold text-dark">お申し込みについて</p>
+              <p class="w-100 p-2 txtbase"><br>
+                但馬牛とは、明治36年の牛籍台帳以来、兵庫県内で厳正な個体管理や育種改良を進めてきた牛です。<br>
+                そのうち一定の枝肉格付けのものが神戸ビーフと呼ばれます。<br>
+                ※このお礼の品は兵庫県地域資源認定品です。神戸市産ではありません。<br>
+                A5等級神戸牛の霜降り、赤身、カルビをバランス良く混ぜた焼肉セット。<br>
+                世界に誇る神戸牛の美味しさを是非ご家庭で。高級感のある黒トレーでのお届けで、ギフトにもお勧めです。<br>
+              </p>
+              <p class="w-100 p-2 txtbase">
+                【神戸牛（神戸ビーフ）とは】<br>
+                <br>
+                昭和58年、神戸牛流通推進協議会が設立され「神戸ビーフ」を世界一にする為、以下の厳しい牛肉の規格が定められました。<br>
+                <br>
+                「兵庫県産（但馬牛）」の未経産牛・去勢牛<br>
+                霜降りの度合いを表す「BMS」がNo.6以上<br>
+                可食部分の割合（歩留等級）がA・B等級<br>
+                枝肉重量が499.9kg以下<br>
+                肉質のきめ細かさ、しまり具合が優れている<br>
+                <br>
+                神戸ビーフに認定された牛肉には「のじぎく」の紋章が捺され<br>
+                神戸肉之証が発行されます。<br>
+                <br>
+                牛をかたどったブロンズ像が、神戸ビーフを取り扱う指定登録店の目印。<br>
+              </p>
+              <p class="w-100 p-2 txtbase">
+                【当店の神戸ビーフ】<br>
+                <br>
+                長年神戸牛を育ててきた、最優秀賞受賞歴のあるトップ生産者さんを中心に、優れたものだけを一頭買いしています。<br>
+                <br>
+                定期的に牧場に見学に行き、生産者さんと情報交換をしています。<br>
+                与える飼料や水への拘り、騒音の少ない環境等、農家さんは惜しみない愛情を注ぎ大切に牛を育てられています。<br>
+                <br>
+                これからもこのような素晴らしい生産者の方とよりよい関係を築いていき、<br>
+                お客様に最高の神戸牛をお届していきたいと考えております。<br>
+                <br>
+                <br>
+                熨斗（のし）ご希望の方には無地熨斗をお付けいたします。<br>
+                別途ご希望の際は直接ご連絡ください。<br>
+                <br>
+              </p>
+              <p class="w-100 p-2 txtbase">
+                【神戸牛専門店　神戸ぐりる工房／0120-078-199】
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex flex-column h-100">
+            <div class="d-flex flex-column">
+              <div class="mt-auto p-2">
+                <div class="dl"></div>
+                <p class="w-100 p-2 txtbase fw-bold text-dark">お申し込みについて</p>
+                <div class="part txtbase">
+                  <dl>
+                    <dt>申込条件</dt>
+                    <dd>何度も申し込み可</dd>
+                  </dl>
+                  <dl>
+                    <dt>申込期日</dt>
+                    <dd>通年</dd>
+                  </dl>
+                  <dl>
+                    <dt>発送期日</dt>
+                    <dd>寄附のご入金後、２週間以内を目途に発送いたします。</dd>
+                  </dl>
+                  <dl>
+                    <dt>配送方法</dt>
+                    <dd>冷凍配送</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <section class="pt-3">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h5 class="fs-3 fs-lg-5 lh-sm mb-3 text-primary">おすすめのお礼の品</h5>
+          </div>
+        </div>
+
+        <div class="row g-1 g-md-3 justify-content-center">
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product7.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">50,000</span> 円</p>
+                  <p class="txtbase">神戸ビーフ　肩ロースとモモのすき焼用（940g）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product3.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">【冷蔵便】【辰屋】神戸牛焼肉懐石 4種 計600g
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product2.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">15,000</span> 円</p>
+                  <p class="txtbase">【レーブドゥシェフ】くちどけやさしいシェフのアイス（12個入）『農林水産大臣賞』受賞</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product4.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">6,000</span> 円</p>
+                  <p class="txtbase">福寿　純米吟醸　化粧箱入り</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product5.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">17,000</span> 円</p>
+                  <p class="txtbase">神戸の酒蔵飲み比べセット(300ml x 8本)</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product6.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">有馬温泉・宿泊施設利用優待券（3万円相当）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product8.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">100,000</span> 円</p>
+                  <p class="txtbase">神戸市観光・ホテル旅館協会　Kクーポン（3枚）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex">
+            <div class="card h-100 shadow" style="border-radius: .5rem;">
+              <a tabindex="-1">
+                <img class="card-img-top" src="assets/img/gallery/img_product9.jpg" style="border-radius: .5rem .5rem 0 0;" alt="..." />
+                <div class="card-body border-top flex-grow-1" style="padding: .5rem;">
+                  <p class="txtsm text-center">寄附金額 <span class="txtmd fw-bold text-primary">70,000</span> 円</p>
+                  <p class="txtbase">有馬温泉「有馬グランドホテル」「中の坊瑞苑」　中の坊ギフトクーポン（21000円相当）</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex justify-content-center mt-5">
+        <a class="btn btn-lg btn-primary" tabindex="-1" role="button" style="pointer-events: none;">お礼の品一覧</a>
+      </div>
+
+      </div>
+      </div>
+    </section>
+
+    <style>
+      .bnr a {
+        display: block;
+        overflow: hidden;
+        border: 1px solid #C8C8C8;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+
+    <section class="pt-3">
+      <div class="container">
+
+        <div class="row col-md-10 mt-3 g-1 g-md-2 mx-auto">
+          <div class="col-lg-7 mx-auto text-center">
+            <h5 class="fs-3 fs-lg-5 lh-sm mb-3 text-primary">ポータルサイトから寄付する</h5>
+          </div>
+
+        </div>
+
+        <div class="row col-md-10 g-1 g-md-2 mx-auto">
+
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid d-flex align-items-center justify-content-center" src="assets/img/gallery/kifu_rakuten.png" alt="楽天ふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_furunavi.png" alt="ふるなび">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1"> <img class="img-fluid" src="assets/img/gallery/kifu_satofull.png" alt="さとふる">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_choice.png" alt="ふるさとチョイス">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_furulabo.png" alt="ふるラボ">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_mynavi.png" alt="マイナビふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_ana.png" alt="ANAのふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_honpo.png" alt="ふるさと本舗">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_nippon.png" alt="ふるさと納税ニッポン">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_wowma.png" alt="au PAYふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_saisoncard.png" alt="セゾンのふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_fururi.png" alt="ふるり">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_palette.png" alt="ふるさとパレット">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_gcall.png" alt="G-Callふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_plus.png" alt="ふるさとぷらす">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_premium.png" alt="ふるさとプレミアム">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_jre.png" alt="JRE MALL ふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_jal.png" alt="JALふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_mitsukoshi.png" alt="三越伊勢丹ふるさと納税">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_gurusuguri.png" alt="ぐるすぐり">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_hyakusen.png" alt="ふるさと納税百選">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 bnr">
+            <a tabindex="-1">
+              <img class="img-fluid" src="assets/img/gallery/kifu_furusatomarket.png" alt="ふるさとマーケット">
+            </a>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+
+
+    <section class="py-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-2 mb-3">
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-800 text-decoration-none" href="#!">ふるさと納税の仕組みと手続き</a></li>
+              <li class="lh-lg"><a class="text-800 text-decoration-none" href="#!">ご利用規約</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-800 text-decoration-none" href="#!">特定商取引法の表示</a></li>
+              <li class="lh-lg"><a class="text-800 text-decoration-none" href="#!">個人情報保護方針</a></li>
+              <li class="lh-lg"><a class="text-800 text-decoration-none" href="#!">よくある質問</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-auto ms-auto">
+            <div class="row input-group-icon">
+              <div class="col-12">
+                <input class="form-control input-box" type="email" placeholder="お問い合わせ" aria-label="email" />
+                <svg class="bi bi-arrow-right-short input-box-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#424242" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                  </path>
+                </svg>
+              </div><a class="stretched-link" tabindex="-1"></a>
+            </div>
+            <p class="text-800">
+            </p>
+            <p class="text-800">
+              <span class="text-800">〒650-8570 神戸市中央区加納町6-5-1</span>
+            </p>
+          </div>
+        </div>
+        <div class="border-bottom border-3"></div>
+        <div class="row flex-center my-3">
+          <div class="order-1 order-md-0">
+            <p class="my-2 text-1000 text-center text-md-start">Copyright © 神戸市
+            </p>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <div class="d-flex justify-content-center align-content-center py-3 stt" data-aos="fade-up" data-aos-duration="1000">
+      <p class="txtbase text-dark text-end mb-2 mx-3">寄付金額 <span class="txtlg fw-bold">19,000</span> 円</p>
+      <a class="btn btn-md btn-danger d-flex align-items-center justify-content-center mx-3" tabindex="-1" style="pointer-events: none;">
+        <span class="txtbase">寄付カートに入れる</span>
+      </a>
+    </div>
+
+    <style>
+      main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .stt {
+        position: sticky;
+        bottom: 0;
+        background-color: white;
+        padding: 10px;
+        border-top: 1px solid
+          /*#2b5776*/
+          #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+
+  </main>
+
+
+  <script src="vendors/@popperjs/popper.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/is/is.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.6/index.global.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="vendors/feather-icons/feather.min.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        locale: 'ja',
+        initialView: 'dayGridMonth',
+        googleCalendarApiKey: 'AIzaSyAcFQvtpgeOI56KKsoi1OySXI73ykaFW8E',
+        events: 'https://calendar.google.com/calendar/embed?src=mlj.furusatodirect%40gmail.com&ctz=Asia%2FTokyo',
+
+        headerToolbar: {
+          start: "prev",
+          center: "title",
+          end: "next"
+        }
+
+
+      });
+      calendar.render();
+    });
+  </script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+</body>
+
+</html>

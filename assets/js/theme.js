@@ -418,7 +418,7 @@ docReady(scrollToTop);
 //# sourceMappingURL=theme.js.map
 
 /**
- * swiper
+ * swiper gallery
  */
 var swiper = new Swiper(".footswiper", {
   navigation: {
@@ -447,5 +447,26 @@ var swiper = new Swiper(".topSwiper", {
       slidesPerView: 1.2,
       //spaceBetween: 50,
     },
+  },
+});
+
+/**
+ * swiper product detail
+ */
+
+var swiper = new Swiper(".pd_Swiper", {
+  spaceBetween: 6,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".pd_Swiper2", {
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
   },
 });
